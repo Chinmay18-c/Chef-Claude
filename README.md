@@ -1,19 +1,88 @@
-# Getting Started
-Install the dependencies and run the project
+# AI Recipe Generator 🍳
+
+A modern React application that helps you generate recipes based on the ingredients you have available. Powered by AI, this application creates personalized recipes tailored to your ingredients.
+
+## Features ✨
+
+- 🥗 Add and manage ingredients dynamically
+- 🤖 AI-powered recipe generation
+- 📱 Responsive design for all devices
+- 🎨 Modern and intuitive user interface
+- ⚡ Real-time recipe suggestions
+- 🔒 Secure API key management
+
+## Prerequisites 📋
+
+Before you begin, ensure you have the following installed:
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
+
+## Installation 🚀
+
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd <repository-name>
 ```
+
+2. Install dependencies:
+```bash
 npm install
-npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+3. Create a `.env` file in the root directory and add your API key:
+```env
+VITE_ANTHROPIC_API_KEY=your_api_key_here
+```
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Usage 💡
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+1. Start the development server:
+```bash
+npm run dev
+```
 
-Happy Coding!
+2. Open your browser and navigate to `http://localhost:5173`
+
+3. Add your ingredients using the input field
+4. Click "Get Recipe" to generate a recipe based on your ingredients
+
+## Project Structure 📁
+
+```
+src/
+├── components/
+│   ├── AddIngredient.jsx
+│   ├── GetRecipe.jsx
+│   ├── IngredientsList.jsx
+│   └── Recipe.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Technologies Used 🛠
+
+- React
+- Vite
+- Anthropic API
+- CSS3 with modern features
+- Inter font family
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License 📄
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments 🙏
+
+- Built with React and Vite
+- Powered by Anthropic's Claude API
+- Inspired by the need for quick and easy recipe generation
+
+## Support 💬
+
+If you encounter any issues or have questions, please open an issue in the repository.
