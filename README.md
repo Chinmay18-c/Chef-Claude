@@ -87,7 +87,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you encounter any issues or have questions, please open an issue in the repository.
 
-##Screenshot
-(screenshot1.png)
-(screenshot2.png)
-(screenshot3.png)
